@@ -1,4 +1,4 @@
-/*Questions To Be Answered
+/* Questions To Be Answered
 1.Between dogs and cat intakes, what does the shelter take in more?
 2.What is the most popular dog breed to be taken in?
 3.Percentages of different outcomes for dogs and cats 
@@ -22,7 +22,7 @@ CREATE TABLE Austin_Animal_Center_Intakes_Cleaned (
 --Inserting Data--
 
 COPY Austin_Animal_Center_Intakes_Cleaned
-FROM 'C:\Users\emman\OneDrive\Documents\Data Sets\Austin Animal Analysis\Austin_Animal_Center_Intakes_Cleaned.csv'
+FROM 'C:\mydirectory\Austin_Animal_Center_Intakes_Cleaned.csv'
 WITH (FORMAT CSV, HEADER)
 
 --Creating Outcome Table-- 
@@ -43,7 +43,7 @@ CREATE TABLE Austin_Animal_Center_Outcomes_Cleaned (
 --Inserting Data--
 
 COPY Austin_Animal_Center_Outcomes_Cleaned
-FROM 'C:\Users\emman\OneDrive\Documents\Data Sets\Austin Stray Animal Analysis\Austin_Animal_Center_Outcomes_Cleaned.csv'
+FROM 'C:\mydirectory\Austin_Animal_Center_Outcomes_Cleaned.csv'
 WITH (FORMAT CSV, HEADER)
 
 --Checking Tables-- 
