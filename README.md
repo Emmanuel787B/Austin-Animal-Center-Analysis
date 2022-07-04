@@ -1,1 +1,1 @@
-# Austin-Animal-Center-Analysis
+The purpose of this project was to analyze different data comparing dogs and cats, as well as general data taken from Austin's Animal Center over the last 8 years. I look into data such as comparing euthanization and adoption rates between the two, popular dogs breed that are taken in, and comparing adoptions between cat colors. 
